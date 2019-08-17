@@ -36,11 +36,13 @@ Open log.html using your browser.
 - Validates if passed country code is the same with the country code from the JSON responses.
 
 **Unsupported country codes**
+
 Gathered all country that should not generate a user since it is not part of the scope.
 - Validates if the response message is not 'user generated'
 
-- Also checks how the endpoint will handle blank value passed on it.
-- Checks how the endpoint will handle if the JSON key of the post request body is not supported (not locale)
+**Also checks how the endpoint will handle blank value passed on it.**
+
+**Checks how the endpoint will handle if the JSON key of the post request body is not supported (not locale)**
 
 ```
 Generate Supported Country Code User With No Null Values On Response

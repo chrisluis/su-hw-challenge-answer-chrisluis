@@ -21,7 +21,7 @@ docker pull chrisluis/su-hw-challenge-chrisluis
 ```
 **Run the test**
 ```
-docker run --network=host su-hw-challenge-chrisluis bash -c "./run_test.sh"
+docker run --network=host chrisluis/su-hw-challenge-chrisluis bash -c "./run_test.sh"
 ```
 The shell script will use the host machine *localhost:3000* network.
 
